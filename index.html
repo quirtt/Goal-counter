@@ -1,0 +1,21 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Goal Counter ⚽:</h1>
+            <div id="counter">
+                <h2>
+                    <span style="font-size:70px" id="count-el-1">0</span>
+                    <span style="font-size:40px"> VS </span>
+                    <span style="font-size:70px" id="count-el-2">0</span>
+                </h2>
+            </div>
+            <button id="increment-btn-team-1" onclick="increment1()"> 🏁 Team 1! </button>
+            <button id="increment-btn-team-2" onclick="increment2()"> 🏁 Team 2!</button>
+            <p><button style="width:90px" id="reset-btn" onclick="reset()">RESET 🔄</button></p>
+        </div>
+        <script src="index.js"> </script>
+    </body>
+</html>
